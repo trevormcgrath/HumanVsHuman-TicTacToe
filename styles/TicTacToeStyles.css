@@ -1,0 +1,99 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color:#384651;
+  color:#ed6272;
+}
+.clearfix{
+	clear:both;
+}
+h1{
+	margin:15px 0;
+}
+
+#mainContainer{
+	text-align:center;
+	background-color: #202020;
+	max-width:400px;
+	margin: 0px auto;
+	padding:0px;
+	border-radius: 10px;
+}
+
+section{
+	height: 37px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+#gameBoard{
+	padding:0;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+#gameBoard li{
+	list-style: none;
+	background-color: #777;
+	float: left;
+	width: 31%;
+    height: 70px;
+    font-size: 50px;
+	margin:1%;
+}
+
+#gameBoard li:hover{
+	background-color: #999;
+	cursor: pointer;
+}
+
+#resetGame{
+	border: 0;
+	background-color: #444;
+	border-radius: 10px;
+	font-size: 16px;
+	color: #ed6272;
+	margin: 20px 0px;
+	width: 70%;
+}
+
+#resetGame:hover{
+	cursor: pointer;
+	background-color: #ed6272;
+	color:#444;
+}
+
+#resetGame:focus{outline: none;}
+
+.o{
+	color:green!important;
+}
+
+.x{
+	color:red!important;
+}
+.top-left{border-top-left-radius:10px;}
+.top-right{border-top-right-radius:10px;}
+.bottom-left{border-bottom-left-radius:10px;}
+.bottom-right{border-bottom-right-radius:10px;}
+
+#oWon{
+	background-color: rgba(0, 255, 0, 0.3);
+	border-radius:25px;
+	color:#999;
+}
+
+#xWon{
+	background-color: rgba(255, 0, 0, 0.3);
+	border-radius:25px;
+	color:#999;
+}
+
+#tieGame{
+	background-color:rgba(255, 255, 0, 0.3);
+	border-radius:25px;
+	color:#999;
+}
+
+

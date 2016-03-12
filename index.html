@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="A Tic Tac Toe game made by Trevor McGrath March 2016" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tic Tac Toe</title>
+
+        <!-- jQuery 1.12.0 import -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="styles/ticTacToeStyles.css"><!-- styles for this app-->
+        <script src="scripts/ticTacToeScript.js"></script><!-- JS for this app -->
+
+    </head>
+    <body>
+        
+        <div id="mainContainer">
+        	
+            <header>
+                <h1>Tic Tac Toe</h1>
+            </header>
+
+            <section>
+                <span id="alert-area"><p>Human v human tic tac toe!<br>Whoever is first are the o's.</p></span>
+            </section>
+
+            <ul id="gameBoard">
+                <li id="space1" class="top-left"></li>
+                <li id="space2"></li>
+                <li id="space3" class="top-right"></li>
+                <li id="space4"></li>
+                <li id="space5"></li>
+                <li id="space6"></li>
+                <li id="space7" class="bottom-left"></li>
+                <li id="space8"></li>
+                <li id="space9" class="bottom-right"></li>
+            </ul>
+
+            <div class="clearfix"></div>
+			
+            <footer>
+                <button id="resetGame">Reset This Game</button>
+            </footer>
+
+        </div>
+
+    </body>
+</html>
